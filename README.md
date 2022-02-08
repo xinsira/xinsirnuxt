@@ -1,6 +1,6 @@
 # xinsirnuxt
 
-> ts-node
+> 这是一个将Typescript与node框架（本模板暂时只支持koa，后续可以支持express，或者使用者自行配置）、以及vue同构框架nuxt结合的模板。
 
 ## Build Setup
 

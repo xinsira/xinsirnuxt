@@ -21,3 +21,6 @@ $ npm run generate
 
 ## 实现
 改造路程可以查看此文[xinsirnuxt](https://blog.holey.cn/article/17e8058ed7c).
+
+## 温馨提示
+>如果安装依赖过程中出现了错误，请尝试删除package-lock.json及已安装的node_modules，然后使用taobao源重新进行安装。

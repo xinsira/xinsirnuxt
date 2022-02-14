@@ -1,7 +1,7 @@
 
 export default {
   mode: 'universal',
-  telemetry: false, //关闭participating
+  telemetry: false, // 关闭participating
   dev: process.env.NODE_ENV !== 'production',
   /*
   ** Headers of the page
@@ -51,4 +51,4 @@ export default {
     extend (config, ctx) {
     }
   }
-}
+};

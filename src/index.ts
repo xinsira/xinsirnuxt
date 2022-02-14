@@ -1,2 +1,2 @@
-import App from "./bin/app";
+import App from './bin/app';
 new App();

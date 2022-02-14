@@ -21,6 +21,7 @@ export async function errorHandler (ctx, next) {
       msg: '系统发生错误，请稍后重试'
     };
     ctx.response.status = 200;
+    console.log('errorMsg', errorMsg.errors[0].constraints);
     // 参数校验的错误
     if (errorMsg.errors && errorMsg.errors.length) {
       const validatorErr = errorMsg.errors[0];

@@ -1,6 +1,6 @@
 # xinsirnuxt
 
-> 这是一个将Typescript与node框架（本模板暂时只支持koa，后续可以支持express，或者使用者自行配置）、以及vue同构框架nuxt结合的模板。
+> 这是一个将nuxt进行改造的项目模板，结合routing-controllers、class-validator、typedi等来对nuxt框架进行改造，来实现nuxt的node层支持使用ts进行开发、使用装饰器开发、框架层封装统一的错误处理机制。
 
 ## Build Setup
 
